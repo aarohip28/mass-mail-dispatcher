@@ -2,13 +2,11 @@
 1) Purpose: The web page serves as a tool to facilitate the sending of mass emails to a large number of recipients.
 
 2) Components:
-
 a) File Upload: Users can upload a CSV file containing a list of email addresses.
 b) Invalid Email List: The page displays a list of email addresses from the CSV file that are detected as invalid.
 c) Valid Email List: It also shows a list of email addresses from the CSV file that are valid and can be used for sending emails.
 
 3) Functionality:
-
 a) File Upload: Users can select a CSV file from their device.
 b) Email Validation: The application should perform email validation, separating valid and invalid emails.
 c) Display: Invalid and valid emails are displayed in separate lists.
