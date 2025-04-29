@@ -3,11 +3,11 @@ Upload CSV Files containing multiple email addresses.
 
 Email Validation: Automatically separates valid and invalid emails.
 
-Real-time Display of:
+## Real-time Display of:
 
-## ✅ Valid email addresses
+✅ Valid email addresses
 
-## ❌ Invalid email addresses
+❌ Invalid email addresses
 
 Interactive UI with form submission and visual feedback (Note: email sending is not implemented).
 
