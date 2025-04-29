@@ -1,20 +1,40 @@
-# Mass-Mail-Dispatcher
-1) Purpose: The web page serves as a tool to facilitate the sending of mass emails to a large number of recipients.
+## 🚀 Features
+Upload CSV Files containing multiple email addresses.
 
-2) Components:
-a) File Upload: Users can upload a CSV file containing a list of email addresses.
-b) Invalid Email List: The page displays a list of email addresses from the CSV file that are detected as invalid.
-c) Valid Email List: It also shows a list of email addresses from the CSV file that are valid and can be used for sending emails.
+Email Validation: Automatically separates valid and invalid emails.
 
-3) Functionality:
-a) File Upload: Users can select a CSV file from their device.
-b) Email Validation: The application should perform email validation, separating valid and invalid emails.
-c) Display: Invalid and valid emails are displayed in separate lists.
-d) User Interaction: The page includes a simple form with a submit button to trigger the email processing (note: the actual email sending functionality is not implemented in this code).
+Real-time Display of:
 
-4) Styling: The page is styled using CSS to provide a basic and visually appealing layout.
+✅ Valid email addresses
 
-5) Script: JavaScript is used to handle user interactions, specifically the form submission and displaying email lists based on the uploaded CSV file.
+❌ Invalid email addresses
 
+Interactive UI with form submission and visual feedback (Note: email sending is not implemented).
 
+🛠️ Tech Stack
+HTML – Structure and layout
+
+CSS – Styling and presentation
+
+JavaScript – Logic and interactivity
+
+📁 File Structure
+index.html – Main HTML file for UI layout
+
+style.css – Stylesheet for visual presentation
+
+main.js – Script handling email validation and user interaction
+
+🔧 How It Works
+Upload a CSV file with a list of email addresses.
+
+The JavaScript script reads and parses the file.
+
+Emails are validated and displayed under valid or invalid sections accordingly.
+
+📌 Note
+This project does not send actual emails — it only handles validation and displays the categorized email lists.
+
+📄 License
+This project is open-source and available under the MIT License.
 
